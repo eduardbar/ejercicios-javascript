@@ -6,7 +6,7 @@ argumentos numéricos: edad e ingresos. Si edad es igual o mayor
 */
 function calcularImpuestos(edad, ingresos) {
     if (edad >= 18 && ingresos >= 1000) {
-      return ingresos * 0.4; // 40% de impuestos
+      return ingresos * 0.4; 
     } else {
       return 0;
     }
